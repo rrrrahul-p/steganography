@@ -9,8 +9,18 @@ import io
 
 set_website_style("latex")
 
-# DATA CLASSES
+set_website_title("Corgi Cafe")
+set_site_information(
+    author="Rahul P",
+    description="A website for encoding and decoding images with text (steganography).",
+    sources="",
+    planning=[""],
+    links=["https://github.com/rrrrahul-p/steganography"]
+)
+hide_debug_information()
+set_website_framed(False)
 
+# DATA CLASSES
 
 @dataclass
 class ImageInfo:
