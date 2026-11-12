@@ -7,7 +7,7 @@ import numpy as np
 import random
 import io
 
-
+set_website_style("latex")
 
 # DATA CLASSES
 
