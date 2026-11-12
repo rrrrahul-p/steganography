@@ -9,7 +9,7 @@ import io
 
 set_website_style("latex")
 
-set_website_title("Corgi Cafe")
+set_website_title("Steganography")
 set_site_information(
     author="Rahul P",
     description="A website for encoding and decoding images with text (steganography).",
