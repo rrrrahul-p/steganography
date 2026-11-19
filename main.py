@@ -7,7 +7,25 @@ import numpy as np
 import random
 import io
 
+# STYLING & INFORMATION
+
 set_website_style("latex")
+
+add_website_css("#drafter-body--", "color: white;")
+
+add_website_css('''
+body {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}''')
+
+add_website_css('''
+button {
+background-color: rgb(107, 107, 107);
+color: white;
+}''')
+
+add_website_css("#drafter-body--", "color: white;")
 
 set_website_title("Steganography")
 set_site_information(
